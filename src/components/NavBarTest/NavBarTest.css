@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Josefin+Slab:wght@400;500;700&display=swap');
+
+.navBar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-family: acumin-pro, sans-serif; */
+    font-family: 'Cormorant Garamond', serif;
+    padding: 8px;
+}
+
+.logo-name{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.all-links{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 5px;
+
+}
+.top-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid #dcdcdc;
+
+    
+    
+}
+
+.bottom-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.city-logo{
+    width:"130px";
+    height:"100px";
+}
+
+.signup-section{
+    border:1px solid #dcdcdc;
+    border-radius: none;
+    font-size: 14px;
+}
+.account-button{
+    color: #18500f;
+    /* font-weight: bold; */
+}
+
+.account-button:hover{
+    color:#00bbff;
+    font-weight: bold;
+}
+
+.search-button{
+    width: 100px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  } 
+  
+  .search-button input#search{
+    width: 20px;
+    height: 30px;
+    border: 1px solid #fff;
+    font-size: 10pt;
+    float: left;
+    color: #000;
+    padding-left: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 12px;
+
+   
+    -webkit-transition: width .55s ease;
+    -moz-transition: width .55s ease;
+    -ms-transition: width .55s ease;
+    -o-transition: width .55s ease;
+    transition: width .55s ease;
+  }
+  
+  .search-button input#search::-webkit-input-placeholder {
+     color: #18500F;
+  }
+   
+  .search-button input#search:-moz-placeholder {
+     color: #18500F;  
+  }
+   
+  .search-button input#search::-moz-placeholder {  
+     color: #18500F;  
+  }
+   
+  .search-button input#search:-ms-input-placeholder {  
+     color: #18500F;  
+  }
+  
+  .search-button .icon{
+    position: absolute;
+    right: 75px;;
+    margin-left: 10px;
+    margin-top: 5px;
+    z-index: 1;
+    color: #18500F;
+    font-size: 14px;
+  }
+  
+  .search-button input#search:focus, .search-button input#search:active{
+    outline:none;
+    width: 150px;
+    border: 1px solid #18500f;
+  }
+   
+  .search-button:hover input#search{
+  width: 200px;
+  border: 1px solid #00bbff;
+  }
+   
+  .search-button:hover .icon{
+    color: #18500f;
+  }
+  .navv-link{
+    color: #18500F;
+    font-weight: bold;
+}
+.navv-link:hover{
+    color: #00bbff;
+    border-bottom: 2px solid #00bbff;
+}
+.social-linkk:hover{
+   color: #fff;
+   background-color: #18500f;
+}

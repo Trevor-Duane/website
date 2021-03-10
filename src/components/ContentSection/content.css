@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Josefin+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
+@import url("https://use.typekit.net/ksy5vei.css");
+
+  .main2{
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 5px;
+    grid-template-rows: 200px;
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  .fort-images{
+    background-color: #fff;
+
+  }
+
+  .fort-services{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 244px 244px;
+  
+    
+  }
+  .tourism{
+    background-color: #18500f;
+    display: grid;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #00bfff 50%, #18500f 50%);
+    border-right: 1px solid #e0e0e0;
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 200%;
+    background-position: top left;
+  
+    
+  }
+  .tourism::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.2s ease-in-out;
+
+  }
+  .tourism:hover{
+    background-position: bottom left;
+    border-right: 1px solid #00bfff;
+  }
+  .tourism:hover::after{
+    opacity: 1;
+  }
+  
+  .eservices{
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  .events{
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 1px solid #e0e0e0;
+  }
+  .faqs{
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid #e0e0e0;
+  }
+  .iconn{
+    height: 60px;
+    margin: 5px;
+    color: #fff;
+  }
+  .head-para{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: acumin-pro, sans-serif;
+    color: #fff;
+    padding: 10px;
+    
+  }
+  .head-para h2{
+    font-size: 20px;
+    
+  }
+  .head-para p{
+    font-size: 12px;
+
+  } */

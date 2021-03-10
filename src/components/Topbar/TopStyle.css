@@ -1,0 +1,14 @@
+.black{
+    height: 2px;
+    background: black;
+}
+
+.yellow{
+    height: 2px;
+    background: #FFD700;
+}
+
+.red{
+    height: 2px;
+    background: red;
+}

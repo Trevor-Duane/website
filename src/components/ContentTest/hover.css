@@ -1,0 +1,120 @@
+.touriszm{
+    
+    background-color: #18500f;
+    display: grid;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #00bfff 50%, #18500f 50%);
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 200%;
+    background-position: top left;
+
+    
+}
+.touriszm::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.2s ease-in-out;
+
+}
+
+.touriszm:hover{
+    background-position: bottom left;
+    border-right: 1px solid #00bfff;
+}
+
+.touriszm:hover::after{
+    opacity: 1;
+}
+
+
+/* hover and transition styles for eservices*/
+.eservicez{
+    
+    background-color: #18500f;
+    display: grid;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #00bfff 50%, #18500f 50%);
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 200%;
+    background-position: top left;
+
+    
+}
+.eservicez::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.2s ease-in-out;
+
+}
+
+.eservicez:hover{
+    background-position: bottom left;
+    border-right: 1px solid #00bfff;
+}
+
+.eservicez:hover::after{
+    opacity: 1;
+}
+
+/*hover and transition styles for events*/
+.eventzs{
+    
+    background-color: #18500f;
+    display: grid;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #00bfff 50%, #18500f 50%);
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 200%;
+    background-position: top left;
+
+    
+}
+.eventzs::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.2s ease-in-out;
+
+}
+
+.eventzs:hover{
+    background-position: bottom left;
+    border-right: 1px solid #00bfff;
+}
+
+.eventzs:hover::after{
+    opacity: 1;
+}
+
+/*hover and transition styles for faqs*/
+
+.faqsz{
+    
+    background-color: #18500f;
+    display: grid;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(to top, #00bfff 50%, #18500f 50%);
+    transition: all 0.2s ease-in-out;
+    background-size: 100% 200%;
+    background-position: top left;
+
+    
+}
+.faqsz::after{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: opacity 0.2s ease-in-out;
+
+}
+
+.faqsz:hover{
+    background-position: bottom left;
+    border-right: 1px solid #00bfff;
+}
+
+.faqsz:hover::after{
+    opacity: 1;
+}

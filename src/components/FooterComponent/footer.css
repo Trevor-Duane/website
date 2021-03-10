@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Josefin+Slab:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
+
+.footer-main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    color: #000;
+    padding: 5px;
+    bottom: 0px;
+    height: 60vh;
+
+}
+.fort-logo{
+    height: 120px;
+    width: 150px;
+}
+.head{
+    color: #18500F;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px;
+
+}
+.faq p{
+    /* font-family: 'Josefin Slab', serif; */
+    font-family: 'Cormorant Garamond', serif;
+    /* font-family: acumin-pro, sans-serif; */
+    line-height: 10px;
+}
+.links p{
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 10px;
+}
+.fa-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.social-link .facebook {
+    color:blue;
+   
+}
+.social-link .twitter {
+    color:#00bfff;
+}
+.social-link .youtube {
+    color: #ff0000;
+}
+.social-link .linkedin {
+    color: #1e90ff;
+}
+
+.social-link{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+.social-link p{
+    margin-left: 1rem;
+    padding: 1px;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+/*yoya*/
+.Yoya{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: x-small;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

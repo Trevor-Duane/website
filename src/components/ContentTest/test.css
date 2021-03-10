@@ -1,0 +1,129 @@
+@import url("https://use.typekit.net/ksy5vei.css");
+
+.main3{
+    font-family: acumin-pro, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+
+
+}
+.row1, .row2{
+    height: 50%;
+}
+
+.row1{
+    border-bottom: 1px solid #707070;
+}
+
+.fort-city{
+    font-family: acumin-pro, sans-serif;
+}
+.fort-servicez{
+    font-family: acumin-pro, sans-serif;
+    
+}
+
+.eservicez{
+    
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid #707070;
+
+    
+}
+.eventzs{
+    
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.faqsz{
+    
+    background-color: #18500f;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid #707070;
+   
+
+}
+.head-p{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: acumin-pro, sans-serif;
+    margin-top: 80px;
+    color: #fff;
+    
+
+}
+.iconnz{
+    height: 60px;
+    margin: 5px;
+
+}
+
+.head-p h2{
+    font-size: 20px;
+}
+
+.head-p p{
+    font-size: 12px;
+
+  }
+
+.carousel-inner > .item > img {
+    width: 100% !important;
+
+}
+
+.carousel-indicators{
+    visibility: hidden;
+}
+.carousel-control-next, .carousel-control-prev{
+    color: #006633 !important;
+}
+
+/* @media (max-width: 575.98px) { 
+    .main3{
+        background-color: purple;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .main3{
+        background-color: red;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .main3{
+        background-color: royalblue;
+    }
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .main3{
+        background-color: springgreen;
+    }
+
+ }
+
+
+@media (min-width: 1200px) { 
+    .main3{
+        background-color: tomato;
+    } */
+
